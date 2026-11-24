@@ -1,0 +1,1 @@
+LGTM. The diff is clean, the coverage is up, and the repo will outlive us all by about a week.
