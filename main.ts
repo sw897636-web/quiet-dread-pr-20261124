@@ -1,4 +1,4 @@
-// Two Days of Quiet Dread — entry program (v1).
+// Two Days of Quiet Dread — entry program (v2).
 // Writes one original one-line code review comment (1-140 chars,
 // no trailing newline) to entry.txt, deterministically, using
 // only the Node standard library.
@@ -8,7 +8,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const COMMENT =
-  "LGTM. The diff is clean, the coverage is up, and the repo will outlive us all by about a week.";
+  "Approved. The diff is clean, the coverage is up, and the repo will outlive us all by about a week.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });

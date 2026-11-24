@@ -96,7 +96,7 @@ explains its own joke or addresses the judge.
   > LGTM. The diff is clean, the coverage is up, and the repo will outlive us all by about a week.
   First draft. "LGTM" approves, but it is chat shorthand; the approval should
   read like a review verdict.
-- v2 (94 chars):
+- v2 (98 chars):
   > Approved. The diff is clean, the coverage is up, and the repo will outlive us all by about a week.
   "LGTM" -> "Approved": an explicit approval word, unambiguous for criterion 1
   and more like a real review comment. The dread half is unchanged.
